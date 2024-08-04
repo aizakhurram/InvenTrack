@@ -216,7 +216,7 @@ export default function TrackItems() {
           Add New Item
         </Button>
 
-        <Box width="80%" display={'flex'} flexWrap={'wrap'} gap={2} justifyContent={'center'}>
+        <Box width="80%" display={'flex'} flexWrap={'wrap'} paddingBottom={'15%'} gap={2} justifyContent={'center'}>
           {filteredInventory.map(({ name, quantity, imageUrl }) => (
             <Card key={name} sx={{ maxWidth: 345, m: 1 }}>
               {imageUrl && <CardMedia
