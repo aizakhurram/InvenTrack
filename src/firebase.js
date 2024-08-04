@@ -2,7 +2,7 @@ import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
 import { getStorage } from 'firebase/storage';
 const firebaseConfig = {
-    apiKey: "AIzaSyAfRCHatuQAxBkH6iCue_qdUiDJoYH99kg",
+    apiKey: process.env.apiKey,
     authDomain: "inventrack-3e599.firebaseapp.com",
     projectId: "inventrack-3e599",
     storageBucket: "inventrack-3e599.appspot.com",
